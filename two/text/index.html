@@ -1,0 +1,2294 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/text.css" />
+	<link rel="shortcut icon" href="img/01.ico" type="image/x-icon" />
+	<title>Khan Academy | Free Online Courses, Lessons &amp; Practice</title>
+</head>
+
+<body>
+	<div id="pc">
+		<!--导航栏顶部-->
+		<section id="top" class="header">
+			<div class="container-fliud">
+				<div class="control" id="control">
+					<div class="hide-search">
+						<a id="show-hide">
+							<svg role="img" aria-hidden="true" focusable="false" width="15" height="15"
+								viewBox="0 0 10 10">
+								<path fill="#1865f2" d="M9.9,9.9C9.9,10,9.8,10,9.7,10c-0.1,0-0.2,0-0.2-0.1L5,5.4L0.5,9.9C
+	    0.5,10,0.4,10,0.3,10c-0.1,0-0.2,0-0.2-0.1C0,9.8,0,9.6,0.1,9.5L4.6,5L
+	    0.1,0.5C0,0.4,0,0.2,0.1,0.1C0.2,0,0.4,0,0.5,0.1L5,4.6l4.4-4.5C9.6,0,
+	    9.8,0,9.9,0.1c0.1,0.1,0.1,0.3,0,0.4L5.4,5l4.5,4.5C10,9.6,10,9.8,9.9,
+	    9.9z">
+								</path>
+							</svg>
+						</a>
+						<div class="spance_"></div>
+						<div class="input-group">
+							<input type="text" class="form-control"
+								placeholder="Search for courses, skills, and videos" />
+							<span class="input-group-btn">
+								<button type="submit"
+									class="btn btn-info btn-search glyphicon glyphicon-search"></button>
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="row top-row">
+					<div class="col-lg-4 col-md-4 col-xs-4 col-sm-4">
+						<div class="col-lg-4 col-md-4 col-xs-4 col-sm-4">
+							<a class="btn" id="course-dropdown-btn">
+								Couse
+								<span class="caret"></span>
+							</a>
+						</div>
+						<div class="col-lg-8 col-md-8 col-xs-8 col-sm-8">
+							<div class="input-group" id="search-action">
+								<input type="text" class="form-control" placeholder="Search " />
+								<span class="input-group-btn">
+									<button type="submit"
+										class="btn btn-info btn-search glyphicon glyphicon-search"></button>
+								</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-xs-4 col-sm-4">
+						<a class="tubiao_wenzi">
+							<img src="img/logo.png" /> Khan Academy
+						</a>
+					</div>
+					<div class="col-lg-4 col-md-4 col-xs-4 col-sm-4">
+						<ul class="nav navbar-nav top-bar-right">
+							<div class="col-lg-4 col-md-4 col-xs-4 col-sm-4">
+								<a>Donate</a>
+							</div>
+							<div class="col-lg-4 col-md-4 col-xs-4 col-sm-4">
+								<a>Login</a>
+							</div>
+							<div class="col-lg-4 col-md-4 col-xs-4 col-sm-4">
+								<a>Sign&nbsp;up</a>
+							</div>
+						</ul>
+					</div>
+				</div>
+
+				<!--course下拉菜单-->
+
+				<div class="dropdown-menu" id="dropdow-menu">
+					<ul class="dropdown-menu-item">
+						<!--math-->
+						<li class="dropdown-menu-item_">
+							<div>
+								<h2>
+						<li>
+							<a>Math</a>
+						</li>
+						</h2>
+						<ul>
+							<li>
+								<a>
+									<span>Early math</span>
+								</a>
+							</li>
+							<li>
+								<a>
+									<span>Arithmetic</span>
+								</a>
+							</li>
+							<li>
+								<a>
+									<span>Pre-algebra</span>
+								</a>
+							</li>
+							<li>
+								<a>
+									<span>Algebra 1</span>
+								</a>
+							</li>
+							<li>
+								<a>
+									<span>Geometry</span>
+								</a>
+							</li>
+							<li>
+								<a>
+									<span>Algebra 2</span>
+								</a>
+							</li>
+							<li>
+								<a>
+									<span>Trigonometry</span>
+								</a>
+							</li>
+							<li>
+								<a>
+									<span>Precalculus</span>
+								</a>
+							</li>
+							<li>
+								<a>
+									<span>Statistics &amp; probability</span>
+								</a>
+							</li>
+							<li>
+								<a>
+									<span>AP®︎ Calculus AB</span>
+								</a>
+							</li>
+							<li>
+								<a>
+									<span>AP®︎ Calculus BC</span>
+								</a>
+							</li>
+							<li>
+								<a>
+									<span>AP®︎ Statistics</span>
+								</a>
+							</li>
+							<li>
+								<a>
+									<span>Multivariable calculus</span>
+								</a>
+							</li>
+							<li>
+								<a>
+									<span>Differential equations</span>
+								</a>
+							</li>
+							<li>
+								<a>
+									<span>Linear <algebra></algebra></span>
+								</a>
+							</li>
+						</ul>
+				</div>
+				</li>
+				<!--math by grade-->
+				<li class="dropdown-menu-item_">
+					<div>
+						<h2>
+				<li>
+					<a>Math by grade</a>
+				</li>
+				</h2>
+				<ul>
+					<li>
+						<a>
+							<span>Early math</span>
+						</a>
+					</li>
+					<li>
+						<a>
+							<span>Arithmetic</span>
+						</a>
+					</li>
+					<li>
+						<a>
+							<span>Pre-algebra</span>
+						</a>
+					</li>
+					<li>
+						<a>
+							<span>Algebra 1</span>
+						</a>
+					</li>
+					<li>
+						<a>
+							<span>Geometry</span>
+						</a>
+					</li>
+					<li>
+						<a>
+							<span>Algebra 2</span>
+						</a>
+					</li>
+					<li>
+						<a>
+							<span>Trigonometry</span>
+						</a>
+					</li>
+					<li>
+						<a>
+							<span>Precalculus</span>
+						</a>
+					</li>
+					<li>
+						<a>
+							<span>Statistics &amp; probability</span>
+						</a>
+					</li>
+					<li>
+						<a>
+							<span>AP®︎ Calculus AB</span>
+						</a>
+					</li>
+					<li>
+						<a>
+							<span>AP®︎ Calculus BC</span>
+						</a>
+					</li>
+					<li>
+						<a>
+							<span>AP®︎ Statistics</span>
+						</a>
+					</li>
+					<li>
+						<a>
+							<span>Multivariable calculus</span>
+						</a>
+					</li>
+					<li>
+						<a>
+							<span>Differential equations</span>
+						</a>
+					</li>
+					<li>
+						<a>
+							<span>Linear <algebra></algebra></span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			</li>
+
+			<!--Science & engineering-->
+			<li class="dropdown-menu-item_">
+				<div>
+					<h2>
+			<li>
+				<a>Science & engineering</a>
+			</li>
+			</h2>
+			<ul>
+				<li>
+					<a>
+						<span>Early math</span>
+					</a>
+				</li>
+				<li>
+					<a>
+						<span>Arithmetic</span>
+					</a>
+				</li>
+				<li>
+					<a>
+						<span>Pre-algebra</span>
+					</a>
+				</li>
+				<li>
+					<a>
+						<span>Algebra 1</span>
+					</a>
+				</li>
+				<li>
+					<a>
+						<span>Geometry</span>
+					</a>
+				</li>
+				<li>
+					<a>
+						<span>Algebra 2</span>
+					</a>
+				</li>
+				<li>
+					<a>
+						<span>Trigonometry</span>
+					</a>
+				</li>
+				<li>
+					<a>
+						<span>Precalculus</span>
+					</a>
+				</li>
+				<li>
+					<a>
+						<span>Statistics &amp; probability</span>
+					</a>
+				</li>
+				<li>
+					<a>
+						<span>AP®︎ Calculus AB</span>
+					</a>
+				</li>
+				<li>
+					<a>
+						<span>AP®︎ Calculus BC</span>
+					</a>
+				</li>
+				<li>
+					<a>
+						<span>AP®︎ Statistics</span>
+					</a>
+				</li>
+				<li>
+					<a>
+						<span>Multivariable calculus</span>
+					</a>
+				</li>
+				<li>
+					<a>
+						<span>Differential equations</span>
+					</a>
+				</li>
+				<li>
+					<a>
+						<span>Linear <algebra></algebra></span>
+					</a>
+				</li>
+			</ul>
+	</div>
+	</li>
+
+	<!--Economics &amp; finance-->
+	<li class="dropdown-menu-item_">
+		<div>
+			<h2>
+	<li>
+		<a>Economics &amp; finance</a>
+	</li>
+	</h2>
+	<ul>
+		<li>
+			<a>
+				<span>Early math</span>
+			</a>
+		</li>
+		<li>
+			<a>
+				<span>Arithmetic</span>
+			</a>
+		</li>
+		<li>
+			<a>
+				<span>Pre-algebra</span>
+			</a>
+		</li>
+	</ul>
+	</div>
+	</li>
+
+	<!--Computing-->
+	<li class="dropdown-menu-item_">
+		<div>
+			<h2>
+	<li>
+		<a>Computing</a>
+	</li>
+	</h2>
+	<ul>
+		<li>
+			<a>
+				<span>Early math</span>
+			</a>
+		</li>
+		<li>
+			<a>
+				<span>Arithmetic</span>
+			</a>
+		</li>
+		<li>
+			<a>
+				<span>Pre-algebra</span>
+			</a>
+		</li>
+		<li>
+			<a>
+				<span>Pre-algebra</span>
+			</a>
+		</li>
+	</ul>
+	</div>
+	</li>
+
+	<!--Arts &amp; humanities-->
+	<li class="dropdown-menu-item_">
+		<div>
+			<h2>
+	<li>
+		<a>Arts &amp; humanities</a>
+	</li>
+	</h2>
+	<ul>
+		<li>
+			<a>
+				<span>Early math</span>
+			</a>
+		</li>
+		<li>
+			<a>
+				<span>Arithmetic</span>
+			</a>
+		</li>
+		<li>
+			<a>
+				<span>Pre-algebra</span>
+			</a>
+		</li>
+		<li>
+			<a>
+				<span>Pre-algebra</span>
+			</a>
+		</li>
+		<li>
+			<a>
+				<span>Pre-algebra</span>
+			</a>
+		</li>
+	</ul>
+	</div>
+	</li>
+
+	<!--Test prep-->
+	<li class="dropdown-menu-item_">
+		<div>
+			<h2>
+	<li>
+		<a>Test prep</a>
+	</li>
+	</h2>
+	<ul>
+		<li>
+			<a>
+				<span>Early math</span>
+			</a>
+		</li>
+		<li>
+			<a>
+				<span>Arithmetic</span>
+			</a>
+		</li>
+		<li>
+			<a>
+				<span>Pre-algebra</span>
+			</a>
+		</li>
+		<li>
+			<a>
+				<span>Early math</span>
+			</a>
+		</li>
+		<li>
+			<a>
+				<span>Arithmetic</span>
+			</a>
+		</li>
+		<li>
+			<a>
+				<span>Pre-algebra</span>
+			</a>
+		</li>
+	</ul>
+	</div>
+	</li>
+
+	<!--College, careers, &amp; more-->
+	<li class="dropdown-menu-item_">
+		<div>
+			<h2>
+	<li>
+		<a>College, careers, &amp; more</a>
+	</li>
+	</h2>
+	<ul>
+		<li>
+			<a>
+				<span>Early math</span>
+			</a>
+		</li>
+		<li>
+			<a>
+				<span>Arithmetic</span>
+			</a>
+		</li>
+		<li>
+			<a>
+				<span>Pre-algebra</span>
+			</a>
+		</li>
+		<li>
+			<a>
+				<span>Early math</span>
+			</a>
+		</li>
+		<li>
+			<a>
+				<span>Arithmetic</span>
+			</a>
+		</li>
+	</ul>
+	</div>
+	</li>
+
+	</ul>
+	</div>
+
+	<div class="container-fliud">
+		<div class="row title-top">
+			<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+				<h2>You can learn anything.</h2>
+				<h5>or free. For everyone. Forever.</h5>
+			</div>
+		</div>
+	</div>
+	<div class="container-fliud">
+		<div class="row block-row ">
+			<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+				<div class="block-row-child">
+					<button class="block-1">
+						<div>
+							Learners star here
+						</div>
+					</button>
+				</div>
+				<div class="block-row-child">
+					<button class="block-2">
+						<div>
+							Teachers,start here
+						</div>
+					</button>
+				</div>
+				<div class="block-row-child">
+					<button class="block-3">
+						<div>
+							Pqrents,start here
+						</div>
+					</button>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	</div>
+	</section>
+	<!--导航栏顶部-->
+
+	<!--导航-->
+	<div id="nav">
+		<nav class="navbar navbar-default">
+			<ul class="nav nav-daohang navbar-nav">
+				<li id="nav-daohang-math" onclick="click_scroll()">
+					<a class="select">Math</a>
+				</li>
+				<li onclick="click_scroll2()">
+					<a class="select">Science & engineering</a>
+				</li>
+				<li onclick="click_scroll3()">
+					<a>Computing</a>
+				</li>
+				<li onclick="click_scroll4()">
+					<a>Arts & humanities</a>
+				</li>
+				<li onclick="click_scroll5()">
+					<a>Economics & finance</a>
+				</li>
+				<li onclick="click_scroll6()">
+					<a>Test prep</a>
+				</li>
+				<li onclick="click_scroll7()">
+					<a>College, careers, & more</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+	<!--导航-->
+
+	<!--home-->
+	<div id="home">
+		<!--Math-->
+		<section id="math" class="math">
+			<div class="item">
+				<h2>
+					<a>
+						<img src="img/math.png" />
+						<div>Math</div>
+					</a>
+				</h2>
+				<ul>
+					<li>
+						<a>Early math</a>
+					</li>
+					<li>
+						<a>Arithmetic</a>
+					</li>
+					<li>
+						<a>Pre-algebra</a>
+					</li>
+					<li>
+						<a>Algebra 1</a>
+					</li>
+					<li>
+						<a>Geometry</a>
+					</li>
+					<li>
+						<a>Algebra 2</a>
+					</li>
+					<li>
+						<a>Trigonometry</a>
+					</li>
+					<li>
+						<a>Precalculus</a>
+					</li>
+					<li>
+						<a>Statistics & probability</a>
+					</li>
+					<li>
+						<a>AP®︎ Calculus AB</a>
+					</li>
+					<li>
+						<a>AP®︎ Calculus BC</a>
+					</li>
+					<li>
+						<a>AP®︎ Statistics</a>
+					</li>
+					<li>
+						<a>Multivariable calculus</a>
+					</li>
+					<li>
+						<a>Differential equations</a>
+					</li>
+					<li>
+						<a>Linear algebra</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<!--Math-->
+		<!--Math by grade-->
+		<section class="math">
+			<div class="item">
+				<h2>
+					<a>
+						<img src="img/math.png" />
+						<div>Math by grade</div>
+					</a>
+				</h2>
+				<ul>
+					<li>
+						<a>Kindergarten</a>
+					</li>
+					<li>
+						<a>1st grade</a>
+					</li>
+					<li>
+						<a>2nd grade</a>
+					</li>
+					<li>
+						<a>3rd grade</a>
+					</li>
+					<li>
+						<a>4th grade</a>
+					</li>
+					<li>
+						<a>5th grade</a>
+					</li>
+					<li>
+						<a>6th grade</a>
+					</li>
+					<li>
+						<a>7th grade</a>
+					</li>
+					<li>
+						<a>8th grade</a>
+					</li>
+					<li>
+						<a>Illustrative Mathematics</a>
+					</li>
+					<li>
+						<a>Eureka Math/EngageNY</a>
+					</li>
+					<li>
+						<a>High
+							<scho></scho>ol</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<!--Math by grade-->
+		<!--Science and engineering-->
+		<section id="hd2" class="math">
+			<div class="item">
+				<h2>
+					<a>
+						<img src="img/science.png" />
+						<div>Science &amp; engineering</div>
+					</a>
+				</h2>
+				<ul>
+
+					<li>
+						<a>Physics</a>
+					</li>
+					<li>
+						<a>AP Physics 1</a>
+					</li>
+					<li>
+						<a>AP Physics 2</a>
+					</li>
+					<li>
+						<a>Cosmology & astronomy</a>
+					</li>
+					<li>
+						<a>Chemistry</a>
+					</li>
+					<li>
+						<a>AP Chemistry</a>
+					</li>
+					<li>
+						<a>Organic chemistry</a>
+					</li>
+					<li>
+						<a>Biology</a>
+					</li>
+					<li>
+						<a>High school biology</a>
+					</li>
+					<li>
+						<a>AP Biology</a>
+					</li>
+					<li>
+						<a>Health & medicine</a>
+					</li>
+					<li>
+						<a>Electrical engineering</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<!--Science and engineering-->
+		<!--Computing-->
+		<section id="hd3" class="math">
+			<div class="item">
+				<h2>
+					<a>
+						<img src="img/computing.png" />
+						<div>Computing</div>
+					</a>
+				</h2>
+				<ul>
+
+					<li>
+						<a>Computer programming</a>
+					</li>
+					<li>
+						<a>Computer science</a>
+					</li>
+					<li>
+						<a>Hour of Code</a>
+					</li>
+					<li>
+						<a>Computer animation</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<!--Computing-->
+		<!--Arts & humanities-->
+		<section id="hd4" class="math">
+			<div class="item">
+				<h2>
+					<a>
+						<img src="img/art.png" />
+						<div>Arts & humanities</div>
+					</a>
+				</h2>
+				<ul>
+
+					<li>
+						<a>World history</a>
+					</li>
+					<li>
+						<a>US history</a>
+					</li>
+					<li>
+						<a>AP US History</a>
+					</li>
+					<li>
+						<a>Art history</a>
+					</li>
+					<li>
+						<a>Grammar</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<!--Arts & humanities-->
+		<!--Economics & finance-->
+		<section id="hd5" class="math">
+			<div class="item">
+				<h2>
+					<a>
+						<img src="img/economic.png" />
+						<div>Economics & finance</div>
+					</a>
+				</h2>
+				<ul>
+					<li>
+						<a>Microeconomics</a>
+					</li>
+					<li>
+						<a>Macroeconomics</a>
+					</li>
+					<li>
+						<a>Finance & capital markets</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<!--Economics & finance-->
+		<!--Test prep-->
+		<section id="hd6" class="math">
+			<div class="item">
+				<h2>
+					<a>
+						<img src="img/test.png" />
+						<div>Test prep</div>
+					</a>
+				</h2>
+				<ul>
+					<li>
+						<a>SAT</a>
+					</li>
+					<li>
+						<a>LSAT</a>
+					</li>
+					<li>
+						<a>MCAT</a>
+					</li>
+					<li>
+						<a>GMAT 1</a>
+					</li>
+					<li>
+						<a>IIT JEE</a>
+					</li>
+					<li>
+						<a>NCLEX-RN</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<!--Test prep-->
+		<!--College, careers, & more-->
+		<section id="hd7" class="math">
+			<div class="item">
+				<h2>
+					<a>
+						<img src="img/college.png" />
+						<div>College, careers, & more</div>
+					</a>
+				</h2>
+				<ul>
+					<li>
+						<a>College admissions</a>
+					</li>
+					<li>
+						<a>Careers</a>
+					</li>
+					<li>
+						<a>Personal finance</a>
+					</li>
+					<li>
+						<a>Entrepreneurship</a>
+					</li>
+					<li>
+						<a>Growth mindset</a>
+					</li>
+
+				</ul>
+			</div>
+		</section>
+		<!--College, careers, & more-->
+	</div>
+	<!--home-->
+	<!--footer-top-->
+	<div id="footer-top">
+		<section class="footer-top">
+			<div id="footer-top-logo">
+				<img alt="khan kids logo" src="img/khan_kids_logo.svg" />
+			</div>
+			<p>The only free, comprehensive early learning app that will inspire a lifelong love of learning.</p>
+			<div id="footer-top-img">
+				<img alt="khan kids characters images" src="img/pander.png">
+			</div>
+			<a id="footer-top-buttom">
+				<span>Learn More</span>
+			</a>
+		</section>
+	</div>
+	<!--footer-top-->
+	<!--footer-->
+	<div id="footer">
+		<div id="footer_1">
+			<div id="footer_1_title">
+				<p class="p1">Our mission is to provide a free, world-class education to anyone, anywhere.</p>
+				<p class="p2"></p>
+				<p class="p3">Khan Academy is a 501(c)(3) nonprofit organization.
+					<a href="/donate" class="linkHeavy_269y29">Donate</a>
+					or
+					<a href="/contribute" class="linkHeavy_269y29">volunteer</a>
+					today!
+				</p>
+			</div>
+			<ul id="footer_1_item">
+				<!--About-->
+				<li class="footer_1_item_list">
+					<h3>
+						<a>About</a>
+					</h3>
+					<ul>
+						<li>
+							<a>News</a>
+						</li>
+						<li>
+							<a>Impact</a>
+						</li>
+						<li>
+							<a>Our team</a>
+						</li>
+						<li>
+							<a>Our interns</a>
+						</li>
+						<li>
+							<a>Our content specialists</a>
+						</li>
+						<li>
+							<a>Our leadership</a>
+						</li>
+						<li>
+							<a>Our supporters</a>
+						</li>
+						<li>
+							<a>Our contributors</a>
+						</li>
+						<li>
+							<a>Careers</a>
+						</li>
+						<li>
+							<a>Internships</a>
+						</li>
+					</ul>
+				</li>
+				<!--Contact-->
+				<li class="footer_1_item_list">
+					<h3>
+						<a>Contact </a>
+					</h3>
+					<ul>
+						<li>
+							<a>Help center</a>
+						</li>
+						<li>
+							<a>Support community</a>
+						</li>
+						<li>
+							<a>Share your story</a>
+						</li>
+						<li>
+							<a>Press</a>
+						</li>
+					</ul>
+				</li>
+				<!--Download our apps-->
+				<li class="footer_1_item_list">
+					<h3>
+						<a>Download our apps </a>
+					</h3>
+					<ul>
+						<li>
+							<a>iOS app</a>
+						</li>
+						<li>
+							<a>Android app</a>
+						</li>
+					</ul>
+				</li>
+				<!--Courses-->
+				<li class="footer_1_item_list">
+					<h3>
+						<a>Courses</a>
+					</h3>
+					<ul>
+						<li>
+							<a>Math</a>
+						</li>
+						<li>
+							<a>Math by grade</a>
+						</li>
+						<li>
+							<a>Science & engineering</a>
+						</li>
+						<li>
+							<a>Computing</a>
+						</li>
+						<li>
+							<a>Arts & humanities</a>
+						</li>
+						<li>
+							<a>Economics & finance</a>
+						</li>
+						<li>
+							<a>Test prep</a>
+						</li>
+						<li>
+							<a>College, careers, & more</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<form id="footer_1_language-option">
+				<label for="language_select">Language</label>
+				<div class="language_item">
+					<select data-test-id="language_select" id="language_select" aria-label="Change language"
+						class="languageselect">
+						<option disabled="" value="none">View Khan Academy in:</option>
+						<option value="id" lang="id">Bahasa Indonesia</option>
+						<option value="cs" lang="cs">čeština</option>
+						<option value="da" lang="da">dansk</option>
+						<option value="de" lang="de">Deutsch</option>
+						<option value="en" lang="en">English</option>
+						<option value="es" lang="es">español</option>
+						<option value="fr" lang="fr">français</option>
+						<option value="it" lang="it">italiano</option>
+						<option value="nl" lang="nl">Nederlands</option>
+						<option value="nb" lang="nb">norsk bokmål</option>
+						<option value="pl" lang="pl">polski</option>
+						<option value="pt" lang="pt">português</option>
+						<option value="pt-pt" lang="pt-pt">português (Portugal)</option>
+						<option value="sv" lang="sv">svenska</option>
+						<option value="tr" lang="tr">Türkçe</option>
+						<option value="bg" lang="bg">български</option>
+						<option value="mn" lang="mn">монгол</option>
+						<option value="sr" lang="sr">Српски</option>
+						<option value="hy" lang="hy">հայերեն</option>
+						<option value="he" lang="he">עברית</option>
+						<option value="ar" lang="ar">العربية</option>
+						<option value="hi" lang="hi">हिन्दी</option>
+						<option value="bn" lang="bn">বাংলা</option>
+						<option value="gu" lang="gu">ગુજરાતી</option>
+						<option value="ta" lang="ta">தமிழ்</option>
+						<option value="ka" lang="ka">ქართული</option>
+						<option value="ko" lang="ko">한국어</option>
+						<option value="zh-hans" lang="zh-hans">中文 (简体中文)</option>
+						<option value="ja" lang="ja">日本語</option>
+					</select>
+					<svg role="img" aria-hidden="true" class="languagePickerIconDown_1tkw3ab" focusable="false"
+						width="10.668753000586781" height="6" viewBox="0 0 10 5.6239">
+						<path fill="#DDDDDD" d="M5,6L0,0L10,0"></path>
+					</svg>
+				</div>
+				<a id="language_go">
+					<span>Go</span>
+				</a>
+			</form>
+		</div>
+		<div id="footer_2">
+			<div class="footer_2_tips">
+				© 2019 Khan Academy
+			</div>
+
+			<div class="footer_2_tips">
+				<span>
+					<a>Terms of use</a>
+				</span>
+			</div>
+
+			<div class="footer_2_tips">
+				<span>
+					<a>Privacy Policy</a>
+				</span>
+			</div>
+
+			<div class="spance"></div>
+			<div class="footer_2_contact">
+				<a>
+					<img src="img/facebook.png" />
+				</a>
+				<a>
+					<img src="img/bird.png" />
+				</a>
+				<a>
+					<img src="img/photo.png" />
+				</a>
+			</div>
+		</div>
+	</div>
+	</div>
+	<!--footer-->
+
+	<!--移动端-->
+	<div id="mobile">
+		<div class="mobile">
+			<div id="mobile-top">
+				<div id="mobile-top-left">
+					<a>
+						<svg class="logoSvg_4pwcjq" aria-hidden="true" width="176px" height="28px" viewBox="0 0 176 28">
+							<path
+								d="M33.66,6.5A.54.54,0,0,1,34.21,6h2a.55.55,0,0,1,.55.55v6.2l5.79-6.52A.53.53,0,0,1,43,6h2.3a.48.48,0,0,1,.36.82l-6,6.75,6.43,7.69a.51.51,0,0,1-.41.81h-2.5a.55.55,0,0,1-.42-.16l-6-7.4v7a.56.56,0,0,1-.55.56h-2a.55.55,0,0,1-.55-.56Z">
+							</path>
+							<path
+								d="M47.78,6.45a.54.54,0,0,1,.5-.5h1.86a.52.52,0,0,1,.51.5v5.63a4.07,4.07,0,0,1,2.7-.9c3.38,0,4.3,2.34,4.3,5v5.32a.53.53,0,0,1-.51.51H55.28a.51.51,0,0,1-.5-.51V16.16c0-1.47-.67-2.36-1.93-2.36a2.18,2.18,0,0,0-2.2,1.86v5.85c0,.3-.14.51-.56.51H48.28a.52.52,0,0,1-.5-.51Z">
+							</path>
+							<path
+								d="M63.48,15.31a7.7,7.7,0,0,1,2,.3c0-1.35-.34-2-1.47-2a13.49,13.49,0,0,0-3,.39c-.35.12-.55-.13-.6-.45l-.23-1.2a.48.48,0,0,1,.34-.64,13.49,13.49,0,0,1,3.63-.53c3.31,0,4,1.72,4,4.62v5.71a.51.51,0,0,1-.51.51h-.78c-.18,0-.32-.07-.46-.37l-.3-.71a4.66,4.66,0,0,1-3.33,1.33,3.38,3.38,0,0,1-3.58-3.63C59.25,16.76,60.79,15.31,63.48,15.31Zm.07,4.82A2.27,2.27,0,0,0,65.45,19V17.45a4.23,4.23,0,0,0-1.56-.32c-1.22,0-1.88.57-1.88,1.51A1.4,1.4,0,0,0,63.55,20.13Z">
+							</path>
+							<path
+								d="M70.59,11.92a.51.51,0,0,1,.51-.51H72a.42.42,0,0,1,.44.32l.39,1a4.26,4.26,0,0,1,3.42-1.54c3.37,0,4.24,2.27,4.24,4.84v5.49A.52.52,0,0,1,80,22H78.1a.51.51,0,0,1-.51-.51V16c0-1.37-.55-2.22-1.83-2.22a2.34,2.34,0,0,0-2.3,1.65v6.06c0,.39-.16.51-.66.51H71.1a.53.53,0,0,1-.51-.51Z">
+							</path>
+							<path
+								d="M85.89,21.42,93,6a.4.4,0,0,1,.39-.25h.23A.39.39,0,0,1,94,6l7.07,15.45a.41.41,0,0,1-.39.6h-2a.66.66,0,0,1-.67-.46l-1.12-2.48H90.07l-1.13,2.48a.69.69,0,0,1-.66.46h-2A.4.4,0,0,1,85.89,21.42Zm9.91-4.89-2.29-5.05h-.07l-2.25,5.05Z">
+							</path>
+							<path
+								d="M107,11.18A5.24,5.24,0,0,1,111,13c.23.23.12.53-.11.76l-1,1.06c-.23.25-.48.13-.69-.07a2.84,2.84,0,0,0-2.11-.92,2.78,2.78,0,0,0-2.8,2.91,2.77,2.77,0,0,0,2.78,2.94,2.81,2.81,0,0,0,2.25-1.17.5.5,0,0,1,.66-.07l1,.87c.25.23.37.49.18.76a4.75,4.75,0,0,1-4.2,2.23,5.55,5.55,0,1,1,0-11.09Z">
+							</path>
+							<path
+								d="M116.83,15.31a7.82,7.82,0,0,1,2,.3c0-1.35-.35-2-1.47-2a13.5,13.5,0,0,0-3,.39c-.34.12-.55-.13-.59-.45l-.23-1.2a.48.48,0,0,1,.34-.64,13.49,13.49,0,0,1,3.63-.53c3.3,0,4,1.72,4,4.62v5.71a.51.51,0,0,1-.5.51h-.78c-.19,0-.32-.07-.46-.37l-.3-.71a4.68,4.68,0,0,1-3.33,1.33,3.38,3.38,0,0,1-3.58-3.63C112.61,16.76,114.15,15.31,116.83,15.31Zm.07,4.82A2.29,2.29,0,0,0,118.81,19V17.45a4.23,4.23,0,0,0-1.56-.32c-1.22,0-1.88.57-1.88,1.51A1.39,1.39,0,0,0,116.9,20.13Z">
+							</path>
+							<path
+								d="M128.62,11.18a7.67,7.67,0,0,1,2.55.44V6.45a.54.54,0,0,1,.5-.5h1.86a.52.52,0,0,1,.51.5V21.51a.51.51,0,0,1-.51.51h-.85c-.25,0-.41-.21-.5-.51l-.28-.83a4.55,4.55,0,0,1-3.46,1.59c-2.9,0-5.08-2.34-5.08-5.56A5.21,5.21,0,0,1,128.62,11.18Zm2.55,3.22a4.18,4.18,0,0,0-2.21-.6,2.68,2.68,0,0,0-2.64,2.91c0,1.5.85,2.94,2.51,2.94a2.43,2.43,0,0,0,2.34-1.47Z">
+							</path>
+							<path
+								d="M141.22,11.18a4.75,4.75,0,0,1,4.87,4.91c0,.16,0,.53-.05.69a.53.53,0,0,1-.5.48h-6.8a2.55,2.55,0,0,0,2.64,2.46,3.49,3.49,0,0,0,2.27-.78c.26-.21.53-.23.69,0l.9,1.19a.45.45,0,0,1-.05.69,6,6,0,0,1-3.95,1.45,5.37,5.37,0,0,1-5.37-5.56A5.37,5.37,0,0,1,141.22,11.18Zm2,4.2a1.94,1.94,0,0,0-2-1.83,2.11,2.11,0,0,0-2.25,1.83Z">
+							</path>
+							<path
+								d="M147.79,11.92a.51.51,0,0,1,.5-.51h.83a.4.4,0,0,1,.43.3l.39,1a4,4,0,0,1,3.24-1.54,3.61,3.61,0,0,1,3.17,1.61,4.53,4.53,0,0,1,3.42-1.61c3.39,0,4.2,2.16,4.2,4.91v5.42a.52.52,0,0,1-.53.51H161.6a.51.51,0,0,1-.5-.51V16c0-1.37-.51-2.22-1.84-2.22a2,2,0,0,0-2,1.1s0,.53,0,1v5.6a.52.52,0,0,1-.5.51H155a.5.5,0,0,1-.51-.51V16c0-1.37-.39-2.22-1.74-2.22a2.1,2.1,0,0,0-2,1.65v6.06a.52.52,0,0,1-.5.51h-1.86a.52.52,0,0,1-.5-.51Z">
+							</path>
+							<path
+								d="M165.07,12.1a.47.47,0,0,1,.46-.69h2.2a.42.42,0,0,1,.44.3l1.9,6.33h.05l2.41-6.33c.16-.28.34-.3.67-.3h2a.47.47,0,0,1,.46.69l-6.25,15.06a.53.53,0,0,1-.46.32h-2.2a.48.48,0,0,1-.46-.71l2.13-5.37Z">
+							</path>
+							<path fill="#14bf96"
+								d="M2.31,5.8A3.56,3.56,0,0,0,.66,8.6V19.4a3.56,3.56,0,0,0,1.65,2.8L12,27.62a3.75,3.75,0,0,0,3.3,0L25,22.2a3.56,3.56,0,0,0,1.65-2.8V8.6A3.56,3.56,0,0,0,25,5.8L15.31.38a3.75,3.75,0,0,0-3.3,0Z">
+							</path>
+							<path fill="#ffffff"
+								d="M23.61,11.32c-5.38,0-9.4,4.46-9.4,9.93v.23H13.13v-.23c0-5.47-4-9.91-9.42-9.93,0,.34,0,.69,0,1a9.91,9.91,0,0,0,6.4,9.32,10.47,10.47,0,0,0,3.59.64,10.64,10.64,0,0,0,3.62-.64,9.92,9.92,0,0,0,6.39-9.32C23.66,12,23.64,11.66,23.61,11.32Z">
+							</path>
+							<circle fill="#ffffff" cx="13.66" cy="8.74" r="3"></circle>
+						</svg>
+					</a>
+				</div>
+				<div id="mobile-top-right">
+					<div id="mobile-top-right-search">
+						<a>
+							<svg role="img" aria-hidden="true" focusable="false" width="20" height="20"
+								viewBox="0 0 10 10">
+								<path fill="currentColor" d="M7.73732912,6.67985439 C7.75204857,6.69246326 7.76639529,
+									    6.70573509 7.7803301,6.7196699 L9.65165045,8.59099025 C9.94454365,
+									    8.8838835 9.94454365,9.3587572 9.65165045,9.65165045 C9.3587572,
+									    9.94454365 8.8838835,9.94454365 8.59099025,9.65165045 L6.7196699,
+									    7.7803301 C6.70573509,7.76639529 6.69246326,7.75204857 6.67985439,
+									    7.73732912 C5.99121283,8.21804812 5.15353311,8.5 4.25,8.5 C1.90278981,
+									    8.5 0,6.59721019 0,4.25 C0,1.90278981 1.90278981,0 4.25,0 C6.59721019,
+									    0 8.5,1.90278981 8.5,4.25 C8.5,5.15353311 8.21804812,5.99121283
+									    7.73732912,6.67985439 L7.73732912,6.67985439 Z M4.25,7.5 C6.04492544,
+									    7.5 7.5,6.04492544 7.5,4.25 C7.5,2.45507456 6.04492544,1 4.25,1
+									    C2.45507456,1 1,2.45507456 1,4.25 C1,6.04492544 2.45507456,7.5 4.25,
+									    7.5 L4.25,7.5 Z">
+								</path>
+							</svg>
+						</a>
+					</div>
+					<div id="mobile-top-right-caidan">
+						<button>
+							<svg role="img" aria-hidden="true" focusable="false" width="16.79422278736115" height="14"
+								viewBox="0 0 100 83.362">
+								<path fill="currentColor"
+									d="M100.035 70.91l0 8.322q.057 1.653-1.197 2.907t-2.964 1.254l-91.713 0q-1.653 0-2.907-1.254t-1.254-2.907l0-8.322q0-1.71 1.254-2.964t2.907-1.254l91.713 0q1.71 0 2.964 1.254t1.197 2.964zm0-33.402l0 8.379q.057 1.71-1.197 2.964t-2.964 1.197l-91.713 0q-1.653 0-2.907-1.254t-1.254-2.907l0-8.379q0-1.653 1.254-2.907t2.907-1.254l91.713 0q1.71 0 2.964 1.254t1.197 2.907zm0-33.345l0 8.379q.057 1.653-1.197 2.907t-2.964 1.254l-91.713 0q-1.653 0-2.907-1.254t-1.254-2.907l0-8.379q0-1.71 1.254-2.964t2.907-1.197l91.713 0q1.71-.057 2.964 1.197t1.197 2.964z">
+
+								</path>
+							</svg>
+						</button>
+					</div>
+				</div>
+			</div>
+			<!--顶部隐藏菜单-->
+			<div id="mobile-top-hide-caidan">
+				<div id="mobile-top-hide-caidan_">
+					<ul>
+						<li class="mobile-top-hide-caidan-item_a">
+							<a class="-hide-caidan-item-t1">Login</a>
+							<a class="-hide-caidan-item-t2">Sign up</a>
+						</li>
+						<!--顶部导航栏菜单-Math-->
+						<li class="mobile-top-hide-caidan-item">
+							<button id="mobile-top-hide-caidan-math_btn">
+								Math
+								<div>
+									<img id="mobile-top-hide-caidan-math_img" src="img/down.png" />
+								</div>
+							</button>
+							<div class="mobile-top-hide-caidan-zicaidan" id="mobile-top-hide-caidan-math-hide">
+								<ul>
+									<li>
+										<a>
+											Early math
+										</a>
+									</li>
+									<li>
+										<a>
+											Early math
+										</a>
+									</li>
+									<li>
+										<a>
+											Early math
+										</a>
+									</li>
+									<li>
+										<a>
+											Early math
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+
+						<!--顶部导航栏菜单-Math bygrade-->
+						<li class="mobile-top-hide-caidan-item">
+							<button id="mobile-top-hide-caidan-mathbygrade_btn">
+								Math by grade
+								<div>
+									<img id="mobile-top-hide-caidan-mathbygrade_img" src="img/down.png" />
+								</div>
+							</button>
+							<div class="mobile-top-hide-caidan-zicaidan" id="mobile-top-hide-caidan-mathbygrade-hide">
+								<ul>
+									<li>
+										<a>
+											Early math
+										</a>
+									</li>
+									<li>
+										<a>
+											Early math
+										</a>
+									</li>
+									<li>
+										<a>
+											Early math
+										</a>
+									</li>
+									<li>
+										<a>
+											Early math
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+
+						<!--顶部导航栏菜单-science & engineering-->
+						<li class="mobile-top-hide-caidan-item">
+							<button id="mobile-top-hide-caidan-science_btn">
+								science & engineering
+								<div>
+									<img id="mobile-top-hide-caidan-science_img" src="img/down.png" />
+								</div>
+							</button>
+							<div class="mobile-top-hide-caidan-zicaidan" id="mobile-top-hide-caidan-science-hide">
+								<ul>
+									<li>
+										<a>
+											Early math
+										</a>
+									</li>
+									<li>
+										<a>
+											Early math
+										</a>
+									</li>
+									<li>
+										<a>
+											Early math
+										</a>
+									</li>
+									<li>
+										<a>
+											Early math
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+
+						<!--顶部导航栏菜单-computing-->
+						<li class="mobile-top-hide-caidan-item">
+							<button id="mobile-top-hide-caidan-computing_btn">
+								computing
+								<div>
+									<img id="mobile-top-hide-caidan-computing_img" src="img/down.png" />
+								</div>
+							</button>
+							<div class="mobile-top-hide-caidan-zicaidan" id="mobile-top-hide-caidan-computing-hide">
+								<ul>
+									<li>
+										<a>
+											Early math
+										</a>
+									</li>
+									<li>
+										<a>
+											Early math
+										</a>
+									</li>
+									<li>
+										<a>
+											Early math
+										</a>
+									</li>
+									<li>
+										<a>
+											Early math
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+
+						<!--顶部导航栏菜单-arts & hunmanities-->
+						<li class="mobile-top-hide-caidan-item">
+							<button id="mobile-top-hide-caidan-arts_btn">
+								arts & hunmanities
+								<div>
+									<img id="mobile-top-hide-caidan-arts_img" src="img/down.png" />
+								</div>
+							</button>
+							<div class="mobile-top-hide-caidan-zicaidan" id="mobile-top-hide-caidan-arts-hide">
+								<ul>
+									<li>
+										<a>
+											Early math
+										</a>
+									</li>
+									<li>
+										<a>
+											Early math
+										</a>
+									</li>
+									<li>
+										<a>
+											Early math
+										</a>
+									</li>
+									<li>
+										<a>
+											Early math
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+
+						<!--顶部导航栏菜单-economics & finance-->
+						<li class="mobile-top-hide-caidan-item">
+							<button id="mobile-top-hide-caidan-economics_btn">
+								economics & finance
+								<div>
+									<img id="mobile-top-hide-caidan-economics_img" src="img/down.png" />
+								</div>
+							</button>
+							<div class="mobile-top-hide-caidan-zicaidan" id="mobile-top-hide-caidan-economics-hide">
+								<ul>
+									<li>
+										<a>
+											Early math
+										</a>
+									</li>
+									<li>
+										<a>
+											Early math
+										</a>
+									</li>
+									<li>
+										<a>
+											Early math
+										</a>
+									</li>
+									<li>
+										<a>
+											Early math
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+
+						<!--顶部导航栏菜单-test prep-->
+						<li class="mobile-top-hide-caidan-item">
+							<button id="mobile-top-hide-caidan-test_btn">
+								Test prep
+								<div>
+									<img id="mobile-top-hide-caidan-test_img" src="img/down.png" />
+								</div>
+							</button>
+							<div class="mobile-top-hide-caidan-zicaidan" id="mobile-top-hide-caidan-test-hide">
+								<ul>
+									<li>
+										<a>
+											Early math
+										</a>
+									</li>
+									<li>
+										<a>
+											Early math
+										</a>
+									</li>
+									<li>
+										<a>
+											Early math
+										</a>
+									</li>
+									<li>
+										<a>
+											Early math
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+
+						<!--顶部导航栏菜单-College,career,&more-->
+						<li class="mobile-top-hide-caidan-item">
+							<button id="mobile-top-hide-caidan-college_btn">
+								College,career,&more
+								<div>
+									<img id="mobile-top-hide-caidan-college_img" src="img/down.png" />
+								</div>
+							</button>
+							<div class="mobile-top-hide-caidan-zicaidan" id="mobile-top-hide-caidan-college-hide">
+								<ul>
+									<li>
+										<a>
+											Early math
+										</a>
+									</li>
+									<li>
+										<a>
+											Early math
+										</a>
+									</li>
+									<li>
+										<a>
+											Early math
+										</a>
+									</li>
+									<li>
+										<a>
+											Early math
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="mobile-top-hide-caidan-item">
+							<button class="mobile-top-hide-caidan-item_about-donate">
+								<a>About</a>
+							</button>
+						</li>
+						<li class="mobile-top-hide-caidan-item">
+							<button class="mobile-top-hide-caidan-item_about-donate">
+								<a>Donate</a>
+							</button>
+						</li>
+
+
+					</ul>
+				</div>
+			</div>
+
+			<!--移动端中部-->
+			<div id="mobile-containt">
+				<!--顶部图片标题-->
+				<div id="container-top">
+					<div id="container-top-title">
+						<h1>You can learn anything.</h1>
+						<h2>For free. For everyone. Forever.</h2>
+					</div>
+				</div>
+				<!--中部菜单-->
+				<div id="container-middle">
+					<!--math-->
+					<div id="math">
+						<button id="mobile-math-btn">
+							<a class="math">
+								<img src="img/math.png" />
+								<div>Math</div>
+								<div class="middle-svg">
+									<img id="math-up-down" src="img/down.png" />
+								</div>
+							</a>
+						</button>
+						<div class="math-menua-hide" id="math-menua-hide">
+							<ul>
+								<li>
+									<a>Early math</a>
+								</li>
+								<li>
+									<a>Arithmetic</a>
+								</li>
+								<li>
+									<a>Pre-algebra</a>
+								</li>
+								<li>
+									<a>Algebra 1</a>
+								</li>
+								<li>
+									<a>Geometry</a>
+								</li>
+								<li>
+									<a>Algebra 2</a>
+								</li>
+								<li>
+									<a>Trigonometry</a>
+								</li>
+								<li>
+									<a>Precalculus</a>
+								</li>
+								<li>
+									<a>Statistics &amp; probability</a>
+								</li>
+								<li>
+									<a>AP®︎ Calculus AB</a>
+								</li>
+								<li>
+									<a>AP®︎ Calculus BC</a>
+
+								</li>
+								<li>
+									<a>AP®︎ Statistics</a>
+								</li>
+								<li>
+									<a>Multivariable calculus</a>
+								</li>
+								<li>
+									<a>Differential equations</a>
+								</li>
+								<li>
+									<a>Linear algebra</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!--math by grade-->
+					<div id="math">
+						<button id="mobile-mathbygrade-btn">
+							<a class="math">
+								<img src="img/math.png" />
+								<div>math by grade</div>
+								<div class="middle-svg">
+									<img id="mathbygrade-up-down" src="img/down.png" />
+								</div>
+							</a>
+						</button>
+						<div class="math-menua-hide" id="mathbygrade-menua-hide">
+							<ul>
+								<li>
+									<a>Early math</a>
+								</li>
+								<li>
+									<a>Arithmetic</a>
+								</li>
+								<li>
+									<a>Pre-algebra</a>
+								</li>
+								<li>
+									<a>Algebra 1</a>
+								</li>
+								<li>
+									<a>Geometry</a>
+								</li>
+								<li>
+									<a>Algebra 2</a>
+								</li>
+								<li>
+									<a>Trigonometry</a>
+								</li>
+								<li>
+									<a>Precalculus</a>
+								</li>
+								<li>
+									<a>Statistics &amp; probability</a>
+								</li>
+								<li>
+									<a>AP®︎ Calculus AB</a>
+								</li>
+								<li>
+									<a>AP®︎ Calculus BC</a>
+
+								</li>
+								<li>
+									<a>AP®︎ Statistics</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!--science & engineering-->
+					<div id="math">
+						<button id="mobile-sciencce-btn">
+							<a class="math">
+								<img src="img/science.png" />
+								<div>science & engineering</div>
+								<div class="middle-svg">
+									<img id="science-up-down" src="img/down.png" />
+								</div>
+							</a>
+						</button>
+						<div class="math-menua-hide" id="science-menua-hide">
+							<ul>
+								<li>
+									<a>Early math</a>
+								</li>
+								<li>
+									<a>Arithmetic</a>
+								</li>
+								<li>
+									<a>Pre-algebra</a>
+								</li>
+								<li>
+									<a>Algebra 1</a>
+								</li>
+								<li>
+									<a>Geometry</a>
+								</li>
+								<li>
+									<a>Algebra 2</a>
+								</li>
+								<li>
+									<a>Trigonometry</a>
+								</li>
+								<li>
+									<a>Precalculus</a>
+								</li>
+								<li>
+									<a>Statistics &amp; probability</a>
+								</li>
+								<li>
+									<a>AP®︎ Calculus AB</a>
+								</li>
+								<li>
+									<a>AP®︎ Calculus BC</a>
+
+								</li>
+								<li>
+									<a>AP®︎ Statistics</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<!--Computing-->
+					<div id="math">
+						<button id="mobile-computing-btn">
+							<a class="math">
+								<img src="img/computing.png" />
+								<div>Computing</div>
+								<div class="middle-svg">
+									<img id="computing-up-down" src="img/down.png" />
+								</div>
+							</a>
+						</button>
+						<div class="math-menua-hide" id="computing-menua-hide">
+							<ul>
+								<li>
+									<a>Early math</a>
+								</li>
+								<li>
+									<a>Arithmetic</a>
+								</li>
+								<li>
+									<a>Pre-algebra</a>
+								</li>
+								<li>
+									<a>Algebra 1</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<!--Arts & humanities-->
+					<div id="math">
+						<button id="mobile-arts-btn">
+							<a class="math">
+								<img src="img/art.png" />
+								<div>Arts & humanities</div>
+								<div class="middle-svg">
+									<img id="arts-up-down" src="img/down.png" />
+								</div>
+							</a>
+						</button>
+						<div class="math-menua-hide" id="arts-menua-hide">
+							<ul>
+								<li>
+									<a>Early math</a>
+								</li>
+								<li>
+									<a>Arithmetic</a>
+								</li>
+								<li>
+									<a>Pre-algebra</a>
+								</li>
+								<li>
+									<a>Algebra 1</a>
+								</li>
+								<li>
+									<a>Algebra 1</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<!--Economics & finance-->
+					<div id="math">
+						<button id="mobile-economics-btn">
+							<a class="math">
+								<img src="img/economic.png" />
+								<div>Economics & finance</div>
+								<div class="middle-svg">
+									<img id="economics-up-down" src="img/down.png" />
+								</div>
+							</a>
+						</button>
+						<div class="math-menua-hide" id="economics-menua-hide">
+							<ul>
+								<li>
+									<a>Early math</a>
+								</li>
+								<li>
+									<a>Arithmetic</a>
+								</li>
+								<li>
+									<a>Pre-algebra</a>
+								</li>
+								<li>
+									<a>Algebra 1</a>
+								</li>
+								<li>
+									<a>Algebra 1</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<!--Test prep-->
+					<div id="math">
+						<button id="mobile-test-btn">
+							<a class="math">
+								<img src="img/test.png" />
+								<div>Test prep</div>
+								<div class="middle-svg">
+									<img id="test-up-down" src="img/down.png" />
+								</div>
+							</a>
+						</button>
+						<div class="math-menua-hide" id="test-menua-hide">
+							<ul>
+								<li>
+									<a>Early math</a>
+								</li>
+								<li>
+									<a>Arithmetic</a>
+								</li>
+								<li>
+									<a>Pre-algebra</a>
+								</li>
+								<li>
+									<a>Algebra 1</a>
+								</li>
+								<li>
+									<a>Algebra 1</a>
+								</li>
+								<li>
+									<a>Algebra 1</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<!--College,careers,&more-->
+					<div id="math">
+						<button id="mobile-college-btn">
+							<a class="math">
+								<img src="img/college.png" />
+								<div>College,careers,&more</div>
+								<div class="middle-svg">
+									<img id="college-up-down" src="img/down.png" />
+								</div>
+							</a>
+						</button>
+						<div class="math-menua-hide" id="college-menua-hide">
+							<ul>
+								<li>
+									<a>Early math</a>
+								</li>
+								<li>
+									<a>Arithmetic</a>
+								</li>
+								<li>
+									<a>Pre-algebra</a>
+								</li>
+								<li>
+									<a>Algebra 1</a>
+								</li>
+								<li>
+									<a>Algebra 1</a>
+								</li>
+								<li>
+									<a>Algebra 1</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+				<!--底部样式-->
+				<div id="container-buttom">
+					<div id="container-buttom_">
+						<div id="container-buttom_img">
+							<img src="https://cdn.kastatic.org/images/kids/khan_kids_logo.svg">
+						</div>
+						<p>The only free, comprehensive early learning app that will inspire a lifelong love of
+							learning.</p>
+						<a>
+							<span>Learn More</span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<!--移动端中部-->
+
+			<!--移动端底部-->
+			<div id="mobile-footer">
+				<div id="mobile-footer_">
+					<div id="mobile-footer-top">
+						<div id="footer-top_title">
+							<p>Our mission is to provide a free, world-class education to anyone, anywhere.</p>
+							<p id="footer-top-spance"></p>
+							<p>Khan Academy is a 501(c)(3) nonprofit organization.
+								<a>Donate</a> or
+								<a>volunteer</a> today!
+							</p>
+						</div>
+						<ul class="footer-top_ul">
+							<li class="footer-top_li">
+								<h3>About</h3>
+								<ul>
+									<li>
+										<a>News</a>
+									</li>
+									<li>
+										<a>Impact</a>
+									</li>
+									<li>
+										<a>Our team</a>
+									</li>
+									<li>
+										<a>Our interns</a>
+									</li>
+									<li>
+										<a>Our content specialists</a>
+									</li>
+									<li>
+										<a>Our leadership</a>
+									</li>
+									<li>
+										<a>Our supporters</a>
+									</li>
+									<li>
+										<a>Our contributors</a>
+									</li>
+									<li>
+										<a>Careers</a>
+									</li>
+									<li>
+										<a>Internships</a>
+									</li>
+								</ul>
+							</li>
+							<li class="footer-top_li">
+								<h3>Contact</h3>
+								<ul>
+									<li>
+										<a>Help center</a>
+									</li>
+									<li>
+										<a>Support community</a>
+									</li>
+									<li>
+										<a>Share your story</a>
+									</li>
+									<li>
+										<a>Press</a>
+									</li>
+								</ul>
+							</li>
+							<li class="footer-top_li">
+								<h3>Download our apps</h3>
+								<ul>
+									<li>
+										<a>iOS app</a>
+									</li>
+									<li>
+										<a>Android app</a>
+									</li>
+								</ul>
+							</li>
+							<li class="footer-top_li">
+								<h3>Courses</h3>
+								<ul>
+									<li>
+										<a>Math</a>
+									</li>
+									<li>
+										<a>Math by grade</a>
+									</li>
+									<li>
+										<a>Science &amp; engineering</a>
+									</li>
+									<li>
+										<a>Computing</a>
+									</li>
+									<li>
+										<a>Arts &amp; humanities</a>
+									</li>
+									<li>
+										<a>Economics &amp; finance</a>
+									</li>
+									<li>
+										<a>Test prep</a>
+									</li>
+									<li>
+										<a>College, careers, &amp; more</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+						<form id="footer_1_language-option">
+							<label for="language_select">Language</label>
+							<div class="language_item">
+								<select data-test-id="language_select" id="language_select" aria-label="Change language"
+									class="languageselect">
+									<option disabled="" value="none">View Khan Academy in:</option>
+									<option value="id" lang="id">Bahasa Indonesia</option>
+									<option value="cs" lang="cs">čeština</option>
+									<option value="da" lang="da">dansk</option>
+									<option value="de" lang="de">Deutsch</option>
+									<option value="en" lang="en">English</option>
+									<option value="es" lang="es">español</option>
+									<option value="fr" lang="fr">français</option>
+									<option value="it" lang="it">italiano</option>
+									<option value="nl" lang="nl">Nederlands</option>
+									<option value="nb" lang="nb">norsk bokmål</option>
+									<option value="pl" lang="pl">polski</option>
+									<option value="pt" lang="pt">português</option>
+									<option value="pt-pt" lang="pt-pt">português (Portugal)</option>
+									<option value="sv" lang="sv">svenska</option>
+									<option value="tr" lang="tr">Türkçe</option>
+									<option value="bg" lang="bg">български</option>
+									<option value="mn" lang="mn">монгол</option>
+									<option value="sr" lang="sr">Српски</option>
+									<option value="hy" lang="hy">հայերեն</option>
+									<option value="he" lang="he">עברית</option>
+									<option value="ar" lang="ar">العربية</option>
+									<option value="hi" lang="hi">हिन्दी</option>
+									<option value="bn" lang="bn">বাংলা</option>
+									<option value="gu" lang="gu">ગુજરાતી</option>
+									<option value="ta" lang="ta">தமிழ்</option>
+									<option value="ka" lang="ka">ქართული</option>
+									<option value="ko" lang="ko">한국어</option>
+									<option value="zh-hans" lang="zh-hans">中文 (简体中文)</option>
+									<option value="ja" lang="ja">日本語</option>
+								</select>
+								<svg role="img" aria-hidden="true" class="languagePickerIconDown_1tkw3ab"
+									focusable="false" width="10.668753000586781" height="6" viewBox="0 0 10 5.6239">
+									<path fill="#DDDDDD" d="M5,6L0,0L10,0"></path>
+								</svg>
+							</div>
+							<a id="language_go">
+								<span>Go</span>
+							</a>
+						</form>
+					</div>
+					<div id="mobile-footer-buttom">
+						<div>© 2019 Khan Academy<br></div>
+						<div>
+							<span>
+								<a>Terms of use</a>
+							</span>
+						</div>
+						<div class="bottomLink_1iiuer0">
+							<span>
+								<a>Privacy Policy</a>
+							</span>
+						</div>
+						<div id="mobile-footer-buttom_img">
+							<a><img src="img/facebook.png" /></a>
+							<a><img src="img/bird.png" /></a>
+							<a><img src="img/photo.png" /></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--移动端底部-->
+		</div>
+	</div>
+	<script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<script src="js/text.js"></script>
+	<script type="text/javascript">
+		$(function () {
+			//				移动端中部菜单相关变量定义
+			var toggle_math = true;
+			var toggle_mathbygrade = true;
+			var toggle_science = true;
+			var toggle_computing = true;
+			var toggle_arts = true;
+			var toggle_enconomics = true;
+			var toggle_test = true;
+			var toggle_college = true;
+			//				移动端顶部菜单相关变量定义
+			var toggle_math_ = true;
+			var toggle_mathbygrade_ = true;
+			var toggle_science_ = true;
+			var toggle_computing_ = true;
+			var toggle_arts_ = true;
+			var toggle_enconomics_ = true;
+			var toggle_test_ = true;
+			var toggle_college_ = true;
+			//导航栏顶部事件
+			$("#course-dropdown-btn").click(function () {
+				$("#dropdow-menu").toggle();
+			});
+			$("#search-action").click(function () {
+				$("#control").show(100);
+			});
+			$("#show-hide").click(function () {
+				$("#control").hide(100);
+			});
+
+			//导航栏顶部菜单隐藏事件
+			$("#mobile-top-right-caidan").click(function () {
+				$("#mobile-top-hide-caidan").toggle(200);
+			});
+			//导航栏顶部菜单小按钮-子菜单
+			$("#mobile-top-hide-caidan-math_btn").click(function () {
+				$("#mobile-top-hide-caidan-math-hide").toggle(200);
+				if (toggle_math_) {
+					$("#mobile-top-hide-caidan-math_img").attr("src", "img/up.png");
+					toggle_math_ = false;
+				} else {
+					$("#mobile-top-hide-caidan-math_img").attr("src", "img/down.png");
+					toggle_math_ = true;
+				}
+			});
+
+			$("#mobile-top-hide-caidan-mathbygrade_btn").click(function () {
+				$("#mobile-top-hide-caidan-mathbygrade-hide").toggle(200);
+				if (toggle_mathbygrade_) {
+					$("#mobile-top-hide-caidan-mathbygrade_img").attr("src", "img/up.png");
+					toggle_mathbygrade_ = false;
+				} else {
+					$("#mobile-top-hide-caidan-mathbygrade_img").attr("src", "img/down.png");
+					toggle_mathbygrade_ = true;
+				}
+			});
+
+			$("#mobile-top-hide-caidan-science_btn").click(function () {
+				$("#mobile-top-hide-caidan-science-hide").toggle(200);
+				if (toggle_science_) {
+					$("#mobile-top-hide-caidan-science_img").attr("src", "img/up.png");
+					toggle_science_ = false;
+				} else {
+					$("#mobile-top-hide-caidan-science_img").attr("src", "img/down.png");
+					toggle_science_ = true;
+				}
+			});
+
+			$("#mobile-top-hide-caidan-computing_btn").click(function () {
+				$("#mobile-top-hide-caidan-computing-hide").toggle(200);
+				if (toggle_computing_) {
+					$("#mobile-top-hide-caidan-computing_img").attr("src", "img/up.png");
+					toggle_computing_ = false;
+				} else {
+					$("#mobile-top-hide-caidan-computing_img").attr("src", "img/down.png");
+					toggle_computing_ = true;
+				}
+			});
+
+			$("#mobile-top-hide-caidan-arts_btn").click(function () {
+				$("#mobile-top-hide-caidan-arts-hide").toggle(200);
+				if (toggle_arts_) {
+					$("#mobile-top-hide-caidan-arts_img").attr("src", "img/up.png");
+					toggle_arts_ = false;
+				} else {
+					$("#mobile-top-hide-caidan-arts_img").attr("src", "img/down.png");
+					toggle_arts_ = true;
+				}
+			});
+
+			$("#mobile-top-hide-caidan-economics_btn").click(function () {
+				$("#mobile-top-hide-caidan-economics-hide").toggle(200);
+				if (toggle_enconomics_) {
+					$("#mobile-top-hide-caidan-economics_img").attr("src", "img/up.png");
+					toggle_enconomics_ = false;
+				} else {
+					$("#mobile-top-hide-caidan-economics_img").attr("src", "img/down.png");
+					toggle_enconomics_ = true;
+				}
+			});
+
+			$("#mobile-top-hide-caidan-test_btn").click(function () {
+				$("#mobile-top-hide-caidan-test-hide").toggle(200);
+				if (toggle_test_) {
+					$("#mobile-top-hide-caidan-test_img").attr("src", "img/up.png");
+					toggle_test_ = false;
+				} else {
+					$("#mobile-top-hide-caidan-test_img").attr("src", "img/down.png");
+					toggle_test_ = true;
+				}
+			});
+
+			$("#mobile-top-hide-caidan-college_btn").click(function () {
+				$("#mobile-top-hide-caidan-college-hide").toggle(200);
+				if (toggle_college_) {
+					$("#mobile-top-hide-caidan-college_img").attr("src", "img/up.png");
+					toggle_college_ = false;
+				} else {
+					$("#mobile-top-hide-caidan-college_img").attr("src", "img/down.png");
+					toggle_college_ = true;
+				}
+			});
+
+
+			//移动端中部菜单隐藏事件+图标变换事件
+			$("#mobile-math-btn").click(function () {
+				$("#math-menua-hide").toggle(200);
+				if (toggle_math) {
+					$("#math-up-down").attr("src", "img/up.png");
+					toggle_math = false;
+				} else {
+					$("#math-up-down").attr("src", "img/down.png");
+					toggle_math = true;
+				}
+			});
+			$("#mobile-mathbygrade-btn").click(function () {
+				$("#mathbygrade-menua-hide").toggle(200);
+				if (toggle_mathbygrade) {
+					$("#mathbygrade-up-down").attr("src", "img/up.png");
+					toggle_mathbygrade = false;
+				} else {
+					$("#mathbygrade-up-down").attr("src", "img/down.png");
+					toggle_mathbygrade = true;
+				}
+			});
+			$("#mobile-sciencce-btn").click(function () {
+				$("#science-menua-hide").toggle(200);
+				if (toggle_science) {
+					$("#science-up-down").attr("src", "img/up.png");
+					toggle_science = false;
+				} else {
+					$("#science-up-down").attr("src", "img/down.png");
+					toggle_science = true;
+				}
+			});
+			$("#mobile-computing-btn").click(function () {
+				$("#computing-menua-hide").toggle(200);
+				if (toggle_computing) {
+					$("#computing-up-down").attr("src", "img/up.png");
+					toggle_computing = false;
+				} else {
+					$("#computing-up-down").attr("src", "img/down.png");
+					toggle_computing = true;
+				}
+			});
+			$("#mobile-arts-btn").click(function () {
+				$("#arts-menua-hide").toggle(200);
+				if (toggle_arts) {
+					$("#arts-up-down").attr("src", "img/up.png");
+					toggle_arts = false;
+				} else {
+					$("#arts-up-down").attr("src", "img/down.png");
+					toggle_arts = true;
+				}
+			});
+			$("#mobile-economics-btn").click(function () {
+				$("#economics-menua-hide").toggle(200);
+				if (toggle_enconomics) {
+					$("#economics-up-down").attr("src", "img/up.png");
+					toggle_enconomics = false;
+				} else {
+					$("#economics-up-down").attr("src", "img/down.png");
+					toggle_enconomics = true;
+				}
+			});
+			$("#mobile-test-btn").click(function () {
+				$("#test-menua-hide").toggle(200);
+				if (toggle_test) {
+					$("#test-up-down").attr("src", "img/up.png");
+					toggle_test = false;
+				} else {
+					$("#test-up-down").attr("src", "img/down.png");
+					toggle_test = true;
+				}
+			});
+			$("#mobile-college-btn").click(function () {
+				$("#college-menua-hide").toggle(200);
+				if (toggle_college) {
+					$("#college-up-down").attr("src", "img/up.png");
+					toggle_college = false;
+				} else {
+					$("#college-up-down").attr("src", "img/down.png");
+					toggle_college = true;
+				}
+			});
+		});
+		// 获取导航栏到屏幕顶部的距离
+		var oTop = $("#nav").offset().top;
+
+		//获取导航栏的高度，此高度用于保证内容的平滑过渡
+		var martop = $('#nav').outerHeight();
+
+		var sTop = 0;
+
+		// 监听页面的滚动
+		$(window).scroll(function () {
+
+			// 获取页面向上滚动的距离
+			sTop = $(this).scrollTop();
+
+			// 当导航栏到达屏幕顶端
+			if (sTop >= oTop) {
+
+				// 修改导航栏position属性，使之固定在屏幕顶端
+				$("#nav").css({
+					"position": "fixed",
+					"top": "0"
+				});
+				$("#nav").css({
+					"z-index": "2"
+				});
+				$("#nav").css({
+					"width": "100%"
+				});
+
+				// 修改内容的margin-top值，保证平滑过渡
+				$("#home").css({
+					"margin-top": martop
+				});
+
+			} else {
+				// 当导航栏脱离屏幕顶端时，回复原来的属性
+				$("#nav").css({
+					"position": "static"
+				});
+				$("#home").css({
+					"margin-top": "0"
+				});
+			}
+		});
+	</script>
+</body>
+
+</html>
